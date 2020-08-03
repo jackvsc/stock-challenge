@@ -16,11 +16,9 @@ Our goal is to analyze the performance of twelve stocks in 2017 & 2018 in a time
 
 ### Execution Time in Each Program
 
-
+We have achieved a faster run time for our program by refactoring our code. Rather than using nested loops to process our data, we have initialized arrays and used a single loop to carry out our analysis. Each year runs at around 0.1 second.
 
 ![2017 Run Time](/resources/VBA_Challenge_2017.png)
-
-
 
 ![2018 Run Time](/resources/VBA_Challenge_2018.png)
 
@@ -28,14 +26,8 @@ Our goal is to analyze the performance of twelve stocks in 2017 & 2018 in a time
 
 ###Refactoring Code
 
-
+By refactoring our code we are processing fewer steps, using less memory, and improving the program logic. It is similar to proofreading a thesis to get a coherent & concise argument.
 
 ### Original Program & Refactored Program
 
-- Theater campaigns almost always end with success more often than failure. Theater campaigns are most successful when commenced in May, and least so when commenced in December.
-
-- Theater campaigns are most successful when the campaign goal is lower than $5,000.
-
-- While the data set does contain the launch date and end date of each campaign, it does not contain the rate of funding for each campaign. For instance, Louise's campaign for *Fever* came close to its funding goal in a short amount of time. Understanding campaign outcomes based on the rate of funding for each campaign may reveal a pattern in campaign success and failure.
-
-- A year-over-year visualization of campaign outcomes by launch date and a chart showing the number of campaigns for each goal category would each be valuable.
+Refactoring the original VBA script has decreased the strain on our machine's memory, and allows the program to accept greater amounts of data for processing.
